@@ -1,0 +1,142 @@
+body{
+    margin: 0%;
+    padding: 0%;
+   
+    color: grey;
+    background-image: url(" goku.jpg ");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-family: "Poppins", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.left{
+    display:inline-block;
+ 
+    position: absolute;
+    width: 20%;
+    
+}
+span{
+    position: absolute;
+    bottom: 2%;
+    left:44%;
+    top:38%;
+    font-size: x-large;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+span:hover{
+    font-size: xx-large;
+    color:#39FF14;
+   
+}
+.left div{
+    text-align: left;
+  display: flex;
+
+}
+img{
+    width: 40%;
+    display: inline-block;
+}
+.mid{
+    display:block ;
+   
+    margin: 6px auto;
+    width:56% ;
+    top: 2%;
+
+}
+
+.navbar{
+    display: inline-block;
+
+}
+li{
+    display: inline-block;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    padding: 20px 10px;
+    margin: 10px;
+    transition: all 0.3s ease-out;
+}
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #39FF14;
+
+}
+.right{
+    position: absolute;
+    display: inline-block;
+  
+    right: 5%;
+    top: 5%;
+}
+.button{
+    background-color: grey;
+    color: #39FF14;
+    margin:6px ;
+    cursor:pointer ;
+    font-family: "Poppins", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 28px;
+    transition: transform 0.3s;
+}
+.container:hover{
+    transform: translateY(-10px);
+}
+
+.form-group input {
+    font-family: "Poppins", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    width: 80%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+.container h1:hover{
+    color: #39FF14;
+}
+
+.container button {
+
+    display: block;
+    width: 66%;
+    margin: 20px auto;
+}
+.right button{
+    color: #39FF14;
+    background-color: gray;
+}
+
+footer{
+    background-color:#39FF14;
+    color:black;
+    padding-left: 40%;
+    font-size: larger ;
+    font-weight: 500;
+}

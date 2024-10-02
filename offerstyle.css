@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181717;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #39FF14;
+    margin-bottom: 30px;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.membership-box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.membership-box:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 24px;
+    color:darkolivegreen;
+}
+
+.period {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color:#39FF14 ;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:aqua;
+}
+
+.bronze {
+    border-top: 5px solid #cd7f32;
+}
+
+.silver {
+    border-top: 5px solid #c0c0c0;
+}
+
+.gold {
+    border-top: 5px solid #ffd700;
+}
+footer{
+    background-color:#39FF14 ;
+    text-align: center;
+    font-weight: 200;
+    font-size: large;
+}
